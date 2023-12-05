@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--App heading-->
+
+    <!--By Line-->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Click Hire"
+
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="line"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+         />
+
+    <!--Space to display blogs-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="279dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="dcr"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSearchResultTitle"
+        android:textSize="30sp"
+        android:textStyle="italic"
+         />
+
+    <!--Next Button-->
+    <Button
+        android:layout_marginTop="200dp"
+        android:id="@+id/button"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_margin="@android:dimen/notification_large_icon_height"
+        android:background="#4CAF50"
+        android:text="Click One"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+      />
+
+</LinearLayout >
