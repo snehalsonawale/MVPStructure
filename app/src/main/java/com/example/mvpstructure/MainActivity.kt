@@ -72,6 +72,8 @@ class MainActivity : ComponentActivity() ,Contract.View{
         super.onDestroy()
         presenter!!.onDestroy()
     }
+
+    // space aadedd for test
 }
 
 
